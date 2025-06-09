@@ -58,6 +58,9 @@ INSERT INTO dealerships (name, address, phone) VALUES
   ('Garden State Motors', '123 Main St, Newark NJ',  '973‑555‑0101'),
   ('Hudson Auto Mall',    '456 River Rd, Jersey City NJ', '201‑555‑0123');
 
-
+INSERT INTO vehicles (VIN, make, model, year, color, vehicleType, odometer, price) VALUES
+  ('1HGCM82633A004352', 'Honda',  'Accord', 2022, 'White', 'Sedan',  12250, 24995),
+  ('1FTRX18L1XKB88888', 'Ford',   'F‑150', 2021, 'Blue',  'Truck',   8021,  38950),
+  ('JH4KA8260MC006789', 'Acura',  'TLX',   2023, 'Red',   'Sedan',   502,   37999);
 
 
