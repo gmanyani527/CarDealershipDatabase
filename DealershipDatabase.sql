@@ -67,3 +67,11 @@ INSERT INTO inventory (dealership_id, VIN) VALUES
   (1, 'JH4KA8260MC006789'),
   (2, '1FTRX18L1XKB88888');
 
+INSERT INTO sales_contracts (VIN, sale_date, price)
+VALUES ('1HGCM82633A004352', '2025-06-09', 23995.00);
+
+INSERT INTO sales_contracts (VIN, sale_date, price)
+VALUES ('1FTRX18L1XKB88888', '2025-06-12', 37950.00);
+
+INSERT INTO lease_contracts (VIN, lease_start, lease_end, monthly_payment)
+VALUES ('JH4KA8260MC006789', '2025-06-01', '2028-05-31', 499.99);
