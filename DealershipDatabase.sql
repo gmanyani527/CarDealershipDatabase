@@ -54,6 +54,9 @@ CREATE TABLE sales_contracts (
               ON UPDATE CASCADE
               ON DELETE RESTRICT
 );
+INSERT INTO dealerships (name, address, phone) VALUES
+  ('Garden State Motors', '123 Main St, Newark NJ',  '973‑555‑0101'),
+  ('Hudson Auto Mall',    '456 River Rd, Jersey City NJ', '201‑555‑0123');
 
 
 
