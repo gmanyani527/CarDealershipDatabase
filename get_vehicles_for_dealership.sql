@@ -1,5 +1,4 @@
-SELECT  v.*
-FROM    vehicles v
-JOIN    inventory i USING (VIN)
-WHERE   i.dealership_id = dealerId        
-ORDER BY v.make, v.model, v.year;
+SELECT  d.*
+FROM    dealerships d
+JOIN    inventory   i  USING (dealership_id)
+WHERE   i.VIN = '1HGCM82633A004352';       
