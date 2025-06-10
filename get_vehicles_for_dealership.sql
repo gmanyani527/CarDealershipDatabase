@@ -1,3 +1,4 @@
+USE car_dealership;
 SELECT  d.*
 FROM    dealerships d
 JOIN    inventory   i  USING (dealership_id)

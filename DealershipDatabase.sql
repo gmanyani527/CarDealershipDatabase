@@ -1,5 +1,14 @@
-CREATE DATABASE test;
+DROP DATABASE IF EXISTS car_dealership;
+
+CREATE DATABASE car_dealership;
 use car_dealership;
+
+DROP TABLE IF EXISTS sales_contracts;
+DROP TABLE IF EXISTS lease_contracts;
+DROP TABLE IF EXISTS inventory;
+DROP TABLE IF EXISTS vehicles;
+DROP TABLE IF EXISTS dealerships;
+
 
 CREATE TABLE dealerships (
     dealership_id INT AUTO_INCREMENT PRIMARY KEY,
